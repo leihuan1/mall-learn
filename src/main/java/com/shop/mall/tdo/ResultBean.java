@@ -9,7 +9,7 @@ public class ResultBean<T> implements Serializable {
 
     private Integer code;
     private String msg;
-    private T date;
+    private T data;
 
     public ResultBean() {
     }
@@ -17,5 +17,11 @@ public class ResultBean<T> implements Serializable {
     public ResultBean(ResultEnum resultEnum) {
         this.code = resultEnum.code();
         this.msg = resultEnum.msg();
+    }
+
+    public ResultBean(ResultEnum resultEnum,T data) {
+        this.code = resultEnum.code();
+        this.msg = resultEnum.msg();
+        this.data = data;
     }
 }
