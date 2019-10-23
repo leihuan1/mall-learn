@@ -1,8 +1,8 @@
 package com.shop.mall.config;
 
 import com.shop.mall.anno.ResultAnno;
+import com.shop.mall.dto.Response;
 import com.shop.mall.exception.MyException;
-import com.shop.mall.tdo.Response;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;

@@ -1,9 +1,9 @@
 package com.shop.mall.controller;
 
 import com.shop.mall.anno.ResultAnno;
+import com.shop.mall.dto.ResultBean;
+import com.shop.mall.dto.ResultEnum;
 import com.shop.mall.exception.MyException;
-import com.shop.mall.tdo.ResultBean;
-import com.shop.mall.tdo.ResultEnum;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
